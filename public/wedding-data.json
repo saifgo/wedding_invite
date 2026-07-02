@@ -1,0 +1,517 @@
+{
+  "defaultLanguage": "ar",
+  "couple": {
+    "weddingDate": "2026-07-13"
+  },
+  "cover": {
+    "assets": {
+      "leftPanel": "/cover/left-panel.svg",
+      "rightPanel": "/cover/right-panel.svg",
+      "seal": "/cover/seal.webp",
+      "background": "/cover/intro-bg.svg"
+    }
+  },
+  "story": {
+    "images": [
+      { "src": "/story/story-1.svg" },
+      { "src": "/story/story-2.svg" },
+      { "src": "/story/story-3.svg" }
+    ]
+  },
+  "contact": {
+    "email": "hello@omarandrahma.com",
+    "phone": "+216 00 000 000",
+    "instagram": "@omarandrahma"
+  },
+  "languages": {
+    "en": {
+      "couple": {
+        "hisName": "Omar Saif Eddin Gorrab",
+        "herName": "Rahma Bouaoun",
+        "tagline": "Together with their families"
+      },
+      "families": {
+        "hisFather": "Saif Eddin Gorrab",
+        "hisMother": "Amira Gorrab",
+        "herFather": "Mohamed Bouaoun",
+        "herMother": "Fatma Bouaoun"
+      },
+      "cover": {
+        "monogram": "O & R",
+        "subtitle": "A celebration of love",
+        "tapToOpen": "Tap to open",
+        "openInvitation": "Open invitation",
+        "inviteHeading": "We are honored to invite you to",
+        "weddingCelebration": "Wedding Celebration",
+        "scroll": "Scroll",
+        "blessing": "May Allah bless them and unite them in goodness",
+        "familiesIntro": "The families of",
+        "mr": "Mr.",
+        "mrs": "Mrs.",
+        "and": "and",
+        "inviteTo": "cordially invite you to the wedding of their children",
+        "joyMessage": "We are delighted to share this joy with you"
+      },
+      "countdown": {
+        "sectionLabel": "Countdown",
+        "sectionTitle": "Moments until we meet",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds",
+        "scroll": "Scroll down"
+      },
+      "timeline": {
+        "sectionLabel": "The Celebration",
+        "sectionTitle": "Wedding Schedule",
+        "getDirections": "Get Directions",
+        "addToCalendar": "Add to Calendar",
+        "location": "Location",
+        "scroll": "Scroll down"
+      },
+      "location": {
+        "title": "Location",
+        "openInMaps": "Open in Google Maps",
+        "noCoordinates": "Add coordinates to display the map"
+      },
+      "days": [
+        {
+          "label": "Day One",
+          "title": "Welcome Dinner",
+          "date": "2026-07-13",
+          "venue": {
+            "name": "The Garden Terrace",
+            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
+            "latitude": 38.5025,
+            "longitude": -122.2654
+          },
+          "events": [
+            {
+              "time": "18:00",
+              "title": "Guest Arrival",
+              "description": "Welcome drinks on the terrace"
+            },
+            {
+              "time": "19:00",
+              "title": "Dinner",
+              "description": "An intimate evening among close family and friends"
+            },
+            {
+              "time": "21:30",
+              "title": "Toasts",
+              "description": "Sharing stories and well wishes"
+            }
+          ]
+        },
+        {
+          "label": "Day Two",
+          "title": "Wedding Ceremony & Reception",
+          "date": "2026-07-14",
+          "venue": {
+            "name": "Villa Serenità",
+            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
+            "latitude": 38.4876,
+            "longitude": -122.2812
+          },
+          "events": [
+            {
+              "time": "15:30",
+              "title": "Guest Seating",
+              "description": "Please arrive and take your seat"
+            },
+            {
+              "time": "16:00",
+              "title": "Ceremony",
+              "description": "We exchange our vows beneath the olive trees"
+            },
+            {
+              "time": "17:00",
+              "title": "Cocktail Hour",
+              "description": "Champagne and canapés in the garden"
+            },
+            {
+              "time": "18:30",
+              "title": "Reception Dinner",
+              "description": "Dinner, dancing, and celebration"
+            },
+            {
+              "time": "23:00",
+              "title": "Farewell",
+              "description": "Sparkler send-off"
+            }
+          ]
+        }
+      ],
+      "ourStory": {
+        "sectionLabel": "A Love Story",
+        "title": "Our Story",
+        "paragraph": "We met on a rainy afternoon in a small bookstore, both reaching for the same novel. What began as a shared laugh over spilled coffee grew into late-night conversations, weekend adventures, and a love we knew was meant to last. After years of building a life together, we are overjoyed to celebrate our union surrounded by the people who have shaped our journey.",
+        "imageAlts": [
+          "A moment together in the city",
+          "A quiet evening by the sea",
+          "Our engagement day"
+        ]
+      },
+      "rsvp": {
+        "sectionLabel": "RSVP",
+        "title": "Kindly Respond",
+        "subtitle": "Please let us know if you will be joining us",
+        "respondBy": "Please respond by",
+        "deadline": "2026-08-01",
+        "form": {
+          "fullName": "Full Name",
+          "namePlaceholder": "Your full name",
+          "attending": "Will you be attending?",
+          "accept": "Joyfully Accept",
+          "decline": "Regretfully Decline",
+          "guestCount": "Number of Guests",
+          "message": "Message to the Couple",
+          "messagePlaceholder": "Share your well wishes...",
+          "submit": "Send Response",
+          "sending": "Sending...",
+          "successTitle": "Thank You",
+          "successMessage": "Your response has been received with love.",
+          "submitAnother": "Submit Another Response",
+          "error": "Something went wrong. Please try again."
+        }
+      },
+      "contact": {
+        "sectionLabel": "Get in Touch",
+        "title": "For Further Information",
+        "message": "Should you have any questions about accommodations, dress code, or travel, please do not hesitate to reach out.",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "instagramLabel": "Instagram"
+      },
+      "common": {
+        "loadingError": "Unable to load invitation. Please try again later."
+      }
+    },
+    "ar": {
+      "couple": {
+        "hisName": "عمر سيف الدين قراب",
+        "herName": "رحمة بوعون",
+        "tagline": "مع عائلاتهما الكريمة"
+      },
+      "families": {
+        "hisFather": "سيف الدين قراب",
+        "hisMother": "أميرة قراب",
+        "herFather": "محمد بوعون",
+        "herMother": "فاطمة بوعون"
+      },
+      "cover": {
+        "monogram": "ع & ر",
+        "subtitle": "احتفال بالحب",
+        "tapToOpen": "اضغط لفتح الدعوة",
+        "openInvitation": "افتح الدعوة",
+        "inviteHeading": "يتشرفان بدعوتكم لحضور",
+        "weddingCelebration": "حفل الزفاف",
+        "scroll": "اسحب للأسفل",
+        "blessing": "بارك الله لهما وبارك عليهما وجمع بينهما في خير",
+        "familiesIntro": "تتشرف عائلتا",
+        "mr": "السيد",
+        "mrs": "السيدة",
+        "and": "و",
+        "inviteTo": "بدعوتكم لحضور حفل زفاف نجليهما",
+        "joyMessage": "يسعدنا مشاركتكم هذه الفرحة"
+      },
+      "countdown": {
+        "sectionLabel": "العد التنازلي",
+        "sectionTitle": "لحظات تفصلنا عن اللقاء",
+        "days": "يوم",
+        "hours": "ساعة",
+        "minutes": "دقيقة",
+        "seconds": "ثانية",
+        "scroll": "اسحب للأسفل"
+      },
+      "timeline": {
+        "sectionLabel": "الاحتفال",
+        "sectionTitle": "برنامج الحفل",
+        "getDirections": "الحصول على الاتجاهات",
+        "addToCalendar": "إضافة إلى التقويم",
+        "location": "الموقع",
+        "scroll": "اسحب للأسفل"
+      },
+      "location": {
+        "title": "الموقع",
+        "openInMaps": "افتح في خرائط جوجل",
+        "noCoordinates": "أضف الإحداثيات لعرض الخريطة"
+      },
+      "days": [
+        {
+          "label": "اليوم الأول",
+          "title": "عشاء الترحيب",
+          "date": "2026-07-13",
+          "venue": {
+            "name": "تراس الحديقة",
+            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
+            "latitude": 38.5025,
+            "longitude": -122.2654
+          },
+          "events": [
+            {
+              "time": "18:00",
+              "title": "وصول الضيوف",
+              "description": "مشروبات ترحيبية على التراس"
+            },
+            {
+              "time": "19:00",
+              "title": "العشاء",
+              "description": "أمسية حميمة بين العائلة والأصدقاء المقربين"
+            },
+            {
+              "time": "21:30",
+              "title": "التهاني",
+              "description": "تبادل القصص والتمنيات الطيبة"
+            }
+          ]
+        },
+        {
+          "label": "اليوم الثاني",
+          "title": "مراسم الزفاف والحفل",
+          "date": "2026-07-14",
+          "venue": {
+            "name": "فيلا سيرينيتا",
+            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
+            "latitude": 38.4876,
+            "longitude": -122.2812
+          },
+          "events": [
+            {
+              "time": "15:30",
+              "title": "جلوس الضيوف",
+              "description": "يرجى الحضور وأخذ مقاعدكم"
+            },
+            {
+              "time": "16:00",
+              "title": "المراسم",
+              "description": "تبادل العهود تحت أشجار الزيتون"
+            },
+            {
+              "time": "17:00",
+              "title": "ساعة الكوكتيل",
+              "description": "شمبانيا ومقبلات في الحديقة"
+            },
+            {
+              "time": "18:30",
+              "title": "عشاء الاستقبال",
+              "description": "عشاء ورقص واحتفال"
+            },
+            {
+              "time": "23:00",
+              "title": "الوداع",
+              "description": "توديع بالألعاب النارية"
+            }
+          ]
+        }
+      ],
+      "ourStory": {
+        "sectionLabel": "قصة حب",
+        "title": "قصتنا",
+        "paragraph": "التقينا في ظهيرة ممطرة بمكتبة صغيرة، كلانا يمد يده نحو نفس الرواية. ما بدأ بضحكة مشتركة على قهوة مسكوبة تحول إلى محادثات ليلية ومغامرات في عطلة نهاية الأسبوع وحب علمنا أنه مقدر لنا. بعد سنوات من بناء حياة معاً، يسعدنا الاحتفال بزواجنا محاطين بالأشخاص الذين شكلوا رحلتنا.",
+        "imageAlts": [
+          "لحظة معاً في المدينة",
+          "أمسية هادئة بجانب البحر",
+          "يوم خطوبتنا"
+        ]
+      },
+      "rsvp": {
+        "sectionLabel": "تأكيد الحضور",
+        "title": "يرجى التأكيد",
+        "subtitle": "يرجى إعلامنا إن كنتم ستحضرون",
+        "respondBy": "يرجى الرد قبل",
+        "deadline": "2026-08-01",
+        "form": {
+          "fullName": "الاسم الكامل",
+          "namePlaceholder": "اسمك الكامل",
+          "attending": "هل ستحضر؟",
+          "accept": "أقبل بكل فرح",
+          "decline": "أعتذر عن الحضور",
+          "guestCount": "عدد الضيوف",
+          "message": "رسالة للعروسين",
+          "messagePlaceholder": "شاركوا تمنياتكم الطيبة...",
+          "submit": "إرسال الرد",
+          "sending": "جارٍ الإرسال...",
+          "successTitle": "شكراً لكم",
+          "successMessage": "تم استلام ردكم بكل حب.",
+          "submitAnother": "إرسال رد آخر",
+          "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+        }
+      },
+      "contact": {
+        "sectionLabel": "تواصل معنا",
+        "title": "لمزيد من المعلومات",
+        "message": "إذا كانت لديكم أي أسئلة حول الإقامة أو قواعد اللباس أو السفر، لا تترددوا في التواصل معنا.",
+        "emailLabel": "البريد الإلكتروني",
+        "phoneLabel": "الهاتف",
+        "instagramLabel": "إنستغرام"
+      },
+      "common": {
+        "loadingError": "تعذر تحميل الدعوة. يرجى المحاولة لاحقاً."
+      }
+    },
+    "fr": {
+      "couple": {
+        "hisName": "Omar Saif Eddin Gorrab",
+        "herName": "Rahma Bouaoun",
+        "tagline": "Avec leurs familles"
+      },
+      "families": {
+        "hisFather": "Saif Eddin Gorrab",
+        "hisMother": "Amira Gorrab",
+        "herFather": "Mohamed Bouaoun",
+        "herMother": "Fatma Bouaoun"
+      },
+      "cover": {
+        "monogram": "O & R",
+        "subtitle": "Une célébration d'amour",
+        "tapToOpen": "Appuyez pour ouvrir",
+        "openInvitation": "Ouvrir l'invitation",
+        "inviteHeading": "Nous avons l'honneur de vous inviter au mariage de",
+        "weddingCelebration": "Célébration de Mariage",
+        "scroll": "Défiler",
+        "blessing": "Que Dieu les bénisse et les unisse dans le bonheur",
+        "familiesIntro": "Les familles de",
+        "mr": "M.",
+        "mrs": "Mme",
+        "and": "et",
+        "inviteTo": "ont l'honneur de vous inviter au mariage de leurs enfants",
+        "joyMessage": "Nous sommes heureux de partager cette joie avec vous"
+      },
+      "countdown": {
+        "sectionLabel": "Compte à Rebours",
+        "sectionTitle": "Les moments avant notre rencontre",
+        "days": "Jours",
+        "hours": "Heures",
+        "minutes": "Minutes",
+        "seconds": "Secondes",
+        "scroll": "Défiler"
+      },
+      "timeline": {
+        "sectionLabel": "La Célébration",
+        "sectionTitle": "Programme du Mariage",
+        "getDirections": "Obtenir l'itinéraire",
+        "addToCalendar": "Ajouter au calendrier",
+        "location": "Lieu",
+        "scroll": "Défiler"
+      },
+      "location": {
+        "title": "Lieu",
+        "openInMaps": "Ouvrir dans Google Maps",
+        "noCoordinates": "Ajoutez les coordonnées pour afficher la carte"
+      },
+      "days": [
+        {
+          "label": "Jour Un",
+          "title": "Dîner de Bienvenue",
+          "date": "2026-07-13",
+          "venue": {
+            "name": "La Terrasse du Jardin",
+            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
+            "latitude": 38.5025,
+            "longitude": -122.2654
+          },
+          "events": [
+            {
+              "time": "18:00",
+              "title": "Arrivée des Invités",
+              "description": "Cocktails de bienvenue sur la terrasse"
+            },
+            {
+              "time": "19:00",
+              "title": "Dîner",
+              "description": "Une soirée intime entre famille et amis proches"
+            },
+            {
+              "time": "21:30",
+              "title": "Toasts",
+              "description": "Partage de souvenirs et de vœux"
+            }
+          ]
+        },
+        {
+          "label": "Jour Deux",
+          "title": "Cérémonie & Réception",
+          "date": "2026-07-14",
+          "venue": {
+            "name": "Villa Serenità",
+            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
+            "latitude": 38.4876,
+            "longitude": -122.2812
+          },
+          "events": [
+            {
+              "time": "15:30",
+              "title": "Installation des Invités",
+              "description": "Veuillez arriver et prendre place"
+            },
+            {
+              "time": "16:00",
+              "title": "Cérémonie",
+              "description": "Échange de nos vœux sous les oliviers"
+            },
+            {
+              "time": "17:00",
+              "title": "Cocktail",
+              "description": "Champagne et canapés dans le jardin"
+            },
+            {
+              "time": "18:30",
+              "title": "Dîner de Réception",
+              "description": "Dîner, danse et célébration"
+            },
+            {
+              "time": "23:00",
+              "title": "Adieux",
+              "description": "Envolée de cierges magiques"
+            }
+          ]
+        }
+      ],
+      "ourStory": {
+        "sectionLabel": "Une Histoire d'Amour",
+        "title": "Notre Histoire",
+        "paragraph": "Nous nous sommes rencontrés un après-midi pluvieux dans une petite librairie, tous deux tendant la main vers le même roman. Ce qui a commencé par un rire partagé sur un café renversé s'est transformé en conversations nocturnes, en aventures du week-end et en un amour que nous savions destiné à durer. Après des années à construire une vie ensemble, nous sommes ravis de célébrer notre union entourés de ceux qui ont façonné notre chemin.",
+        "imageAlts": [
+          "Un moment ensemble en ville",
+          "Une soirée tranquille au bord de la mer",
+          "Notre jour de fiançailles"
+        ]
+      },
+      "rsvp": {
+        "sectionLabel": "RSVP",
+        "title": "Merci de Répondre",
+        "subtitle": "Veuillez nous indiquer si vous serez des nôtres",
+        "respondBy": "Merci de répondre avant le",
+        "deadline": "2026-08-01",
+        "form": {
+          "fullName": "Nom Complet",
+          "namePlaceholder": "Votre nom complet",
+          "attending": "Serez-vous présent ?",
+          "accept": "J'accepte avec joie",
+          "decline": "Je décline avec regret",
+          "guestCount": "Nombre d'Invités",
+          "message": "Message aux Mariés",
+          "messagePlaceholder": "Partagez vos vœux...",
+          "submit": "Envoyer la Réponse",
+          "sending": "Envoi en cours...",
+          "successTitle": "Merci",
+          "successMessage": "Votre réponse a été reçue avec amour.",
+          "submitAnother": "Envoyer une Autre Réponse",
+          "error": "Une erreur s'est produite. Veuillez réessayer."
+        }
+      },
+      "contact": {
+        "sectionLabel": "Nous Contacter",
+        "title": "Pour Plus d'Informations",
+        "message": "Si vous avez des questions sur l'hébergement, le code vestimentaire ou le voyage, n'hésitez pas à nous contacter.",
+        "emailLabel": "E-mail",
+        "phoneLabel": "Téléphone",
+        "instagramLabel": "Instagram"
+      },
+      "common": {
+        "loadingError": "Impossible de charger l'invitation. Veuillez réessayer plus tard."
+      }
+    }
+  }
+}

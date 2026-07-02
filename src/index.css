@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Noto+Sans+Arabic:wght@300;400;500&display=swap');
+
+:root {
+  --beige-50: #faf8f5;
+  --beige-100: #f5f0e8;
+  --beige-150: #efe9df;
+  --beige-200: #e8e0d4;
+  --beige-300: #ddd3c3;
+  --beige-350: #d4c9b8;
+  --beige-400: #c9bcaa;
+  --cream: #faf6f0;
+  --gold: #b8976a;
+  --gold-light: #d4b896;
+  --text-primary: #3d3429;
+  --text-secondary: #6b5e4f;
+  --text-muted: #9a8e7e;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--text-primary);
+  background: var(--beige-100);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.invitation {
+  width: 100%;
+}
+
+.section {
+  min-height: 100vh;
+  min-height: 100dvh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--beige-100);
+  color: var(--text-muted);
+}
+
+.loading-monogram {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--gold);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+/* RTL support */
+[dir='rtl'] body {
+  font-family: 'Noto Sans Arabic', var(--font-body);
+}
+
+[dir='rtl'] .section-title,
+[dir='rtl'] .invitation-names .name,
+[dir='rtl'] .invitation-heading,
+[dir='rtl'] .invitation-blessing,
+[dir='rtl'] .day-tab-title,
+[dir='rtl'] .timeline-event-title,
+[dir='rtl'] .countdown-value,
+[dir='rtl'] .cover-monogram,
+[dir='rtl'] .contact-footer {
+  font-family: 'Amiri', 'Noto Sans Arabic', var(--font-display);
+}
+
+[dir='rtl'] .form-group input,
+[dir='rtl'] .form-group select,
+[dir='rtl'] .form-group textarea {
+  text-align: right;
+}
+
+[dir='rtl'] .form-group input[dir='ltr'],
+[dir='rtl'] .contact-card-value[dir='ltr'] {
+  text-align: left;
+}
+
+[dir='rtl'] .radio-label {
+  flex-direction: row-reverse;
+}

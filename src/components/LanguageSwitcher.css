@@ -1,0 +1,49 @@
+.language-switcher {
+  position: fixed;
+  top: 1.25rem;
+  inset-inline-end: 1.25rem;
+  z-index: 100;
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.3rem;
+  background: rgba(250, 246, 240, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--beige-300);
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(80, 60, 40, 0.1);
+}
+
+.lang-btn {
+  padding: 0.4rem 0.75rem;
+  border: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.25s ease;
+}
+
+.lang-btn:hover {
+  color: var(--text-primary);
+  background: var(--beige-150);
+}
+
+.lang-btn.active {
+  background: var(--text-primary);
+  color: var(--cream);
+}
+
+@media (max-width: 480px) {
+  .language-switcher {
+    top: 0.75rem;
+    inset-inline-end: 0.75rem;
+  }
+
+  .lang-btn {
+    padding: 0.35rem 0.55rem;
+    font-size: 0.7rem;
+  }
+}
