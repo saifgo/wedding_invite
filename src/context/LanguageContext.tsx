@@ -57,10 +57,9 @@ function detectInitialLanguage(root: WeddingDataRoot): Language {
   const stored = localStorage.getItem(STORAGE_KEY) as Language | null
   if (stored && root.languages[stored]) return stored
 
-  const browserLang = navigator.language.slice(0, 2) as Language
-  if (root.languages[browserLang]) return browserLang
+  if (root.languages[root.defaultLanguage]) return root.defaultLanguage
 
-  return root.defaultLanguage
+  return (Object.keys(root.languages)[0] as Language) ?? 'ar'
 }
 
 interface ProviderProps {
