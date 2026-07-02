@@ -17,7 +17,7 @@
   max-height: 85dvh;
   background: var(--cream);
   border-radius: 16px 16px 0 0;
-  padding: 2rem 1.5rem 2.5rem;
+  padding: 2rem 1.5rem calc(2.5rem + env(safe-area-inset-bottom));
   overflow-y: auto;
   animation: slideUp 0.35s ease;
   box-shadow: 0 -8px 40px rgba(45, 38, 30, 0.2);
@@ -25,10 +25,10 @@
 
 .location-modal-close {
   position: absolute;
-  top: 1rem;
+  top: calc(1rem + env(safe-area-inset-top));
   inset-inline-end: 1rem;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--beige-300);
   border-radius: 50%;
   background: var(--beige-100);

@@ -216,3 +216,33 @@
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 480px) {
+  .timeline-container {
+    padding: 1.25rem 1rem;
+  }
+
+  .day-tabs {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .day-tab {
+    padding: 0.85rem 1rem;
+  }
+
+  .day-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .day-actions .btn {
+    justify-content: center;
+    width: 100%;
+    padding: 0.9rem 1.25rem;
+  }
+
+  .section-title {
+    margin-bottom: 1.75rem;
+  }
+}

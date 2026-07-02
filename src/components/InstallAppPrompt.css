@@ -1,0 +1,134 @@
+.install-app {
+  margin-bottom: 2.5rem;
+  padding: 1.75rem 1.5rem;
+  border: 1px solid rgba(184, 151, 106, 0.35);
+  border-radius: 6px;
+  background: rgba(184, 151, 106, 0.08);
+  text-align: center;
+}
+
+.install-app--done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem;
+}
+
+.install-app-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.4rem;
+}
+
+.install-app-title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 0.6rem;
+}
+
+.install-app-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(245, 240, 232, 0.7);
+  margin-bottom: 1.25rem;
+}
+
+.install-app-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 280px;
+  padding: 0.9rem 1.5rem;
+  border: 1px solid var(--gold-light);
+  border-radius: 4px;
+  background: var(--gold);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease;
+  touch-action: manipulation;
+}
+
+.install-app-btn:hover {
+  background: var(--gold-light);
+  border-color: var(--cream);
+}
+
+.install-app-steps {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.install-app-steps li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(245, 240, 232, 0.85);
+}
+
+.install-app-step-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(184, 151, 106, 0.2);
+  color: var(--gold-light);
+  font-size: 0.85rem;
+}
+
+.install-app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(184, 151, 106, 0.25);
+  color: var(--gold-light);
+  font-size: 1rem;
+}
+
+.install-app-done-text {
+  font-size: 0.9rem;
+  color: rgba(245, 240, 232, 0.75);
+}
+
+[dir='rtl'] .install-app-steps {
+  text-align: right;
+}
+
+[dir='rtl'] .install-app-steps li {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 480px) {
+  .install-app {
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .install-app-btn {
+    max-width: none;
+  }
+}

@@ -16,12 +16,13 @@ export default function OurStorySection({ data }: Props) {
 
         <div className="story-gallery">
           {ourStory.images.map((img, i) => (
-            <div className={`story-image-wrapper img-${i + 1}`} key={i}>
+            <div className="story-image-wrapper" key={i}>
               <img
                 src={img.src}
                 alt={img.alt}
                 className="story-image"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           ))}

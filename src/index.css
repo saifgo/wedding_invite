@@ -30,6 +30,8 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -39,6 +41,9 @@ body {
   background: var(--beige-100);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 #root {
@@ -112,4 +117,34 @@ body {
 
 [dir='rtl'] .radio-label {
   flex-direction: row-reverse;
+}
+
+/* Mobile & touch optimizations */
+@media (max-width: 768px) {
+  .section {
+    padding-inline: 0.5rem;
+  }
+
+  .loading-screen {
+    padding: 1rem;
+    text-align: center;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  button,
+  .btn,
+  .day-tab,
+  .lang-btn,
+  .contact-card,
+  .radio-label {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px;
+  }
 }

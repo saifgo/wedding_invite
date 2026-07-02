@@ -1,0 +1,76 @@
+.sparkle-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sparkle-layer-item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --sparkle-peak: 0.7;
+  animation: sparkleTwinkle ease-in-out infinite;
+  filter:
+    drop-shadow(0 0 3px rgba(255, 250, 240, 0.85))
+    drop-shadow(0 0 8px rgba(184, 151, 106, 0.45))
+    drop-shadow(0 1px 2px rgba(61, 52, 41, 0.18));
+}
+
+.sparkle-layer-item svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* Dark gold fill — readable on light backgrounds */
+.sparkle-fill {
+  fill: #8f6a32;
+}
+
+/* Light ring — keeps shape visible on dark backgrounds */
+.sparkle-ring {
+  fill: none;
+  stroke: rgba(255, 248, 235, 0.92);
+  stroke-width: 1.1;
+  stroke-linejoin: round;
+}
+
+.sparkle-layer-item--dot .sparkle-fill {
+  fill: #9a7340;
+}
+
+.sparkle-layer-item--dot .sparkle-ring {
+  fill: none;
+  stroke: rgba(255, 248, 235, 0.88);
+  stroke-width: 0.9;
+}
+
+@keyframes sparkleTwinkle {
+  0%, 100% {
+    opacity: calc(var(--sparkle-peak) * 0.35);
+    transform: scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: var(--sparkle-peak);
+    transform: scale(1.12) rotate(15deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sparkle-layer-item {
+    animation: none;
+    opacity: var(--sparkle-peak);
+  }
+}
+
+@media (max-width: 480px) {
+  .sparkle-layer-item {
+    filter:
+      drop-shadow(0 0 2px rgba(255, 250, 240, 0.8))
+      drop-shadow(0 0 6px rgba(184, 151, 106, 0.4))
+      drop-shadow(0 1px 1px rgba(61, 52, 41, 0.15));
+  }
+}

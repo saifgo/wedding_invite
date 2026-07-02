@@ -49,6 +49,20 @@
   color: var(--text-muted);
 }
 
+@media (max-width: 480px) {
+  .countdown-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .countdown-grid {
+    gap: 0.6rem;
+  }
+
+  .countdown-unit {
+    padding: 1rem 0.4rem;
+  }
+}
+
 @media (max-width: 400px) {
   .countdown-grid {
     grid-template-columns: repeat(2, 1fr);

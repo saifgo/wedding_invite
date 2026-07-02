@@ -1,3 +1,4 @@
+import InstallAppPrompt from './InstallAppPrompt'
 import type { LocalizedWeddingData } from '../types/wedding'
 import './ContactSection.css'
 
@@ -48,6 +49,8 @@ export default function ContactSection({ data }: Props) {
             <span className="contact-card-value" dir="ltr">{contact.instagram}</span>
           </a>
         </div>
+
+        <InstallAppPrompt labels={contact.installApp} />
 
         <p className="contact-footer">
           {couple.hisName} & {couple.herName}

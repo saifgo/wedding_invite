@@ -121,6 +121,19 @@ export interface LanguageContent {
     emailLabel: string
     phoneLabel: string
     instagramLabel: string
+    installApp: {
+      sectionLabel: string
+      title: string
+      description: string
+      installButton: string
+      iosStep1: string
+      iosStep2: string
+      iosStep3: string
+      androidStep1: string
+      androidStep2: string
+      androidStep3: string
+      installedMessage: string
+    }
   }
   common: {
     loadingError: string

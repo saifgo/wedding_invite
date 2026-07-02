@@ -1,6 +1,7 @@
 import { useWeddingData } from './hooks/useWeddingData'
 import { LanguageProvider, useLanguage } from './context/LanguageContext'
 import LanguageSwitcher from './components/LanguageSwitcher'
+import SparkleLayer from './components/SparkleLayer'
 import CoverSection from './components/CoverSection'
 import CountdownSection from './components/CountdownSection'
 import TimelineSection from './components/TimelineSection'
@@ -16,6 +17,7 @@ function InvitationContent() {
 
   return (
     <>
+      <SparkleLayer />
       <LanguageSwitcher />
       <main className="invitation">
         <CoverSection data={content} />

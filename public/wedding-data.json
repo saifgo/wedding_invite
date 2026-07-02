@@ -13,15 +13,16 @@
   },
   "story": {
     "images": [
-      { "src": "/story/story-1.svg" },
-      { "src": "/story/story-2.svg" },
-      { "src": "/story/story-3.svg" }
+      { "src": "/story/img_1.jpg" },
+      { "src": "/story/img_2.jpg" },
+      { "src": "/story/img_3.jpg" },
+      { "src": "/story/img_4.jpg" }
     ]
   },
   "contact": {
-    "email": "hello@omarandrahma.com",
-    "phone": "+216 00 000 000",
-    "instagram": "@omarandrahma"
+    "email": "omarsaifeddingorrab@gmail.com",
+    "phone": "+216 23 249 201",
+    "instagram": "@saifgorrab"
   },
   "languages": {
     "en": {
@@ -31,13 +32,13 @@
         "tagline": "Together with their families"
       },
       "families": {
-        "hisFather": "Saif Eddin Gorrab",
-        "hisMother": "Amira Gorrab",
-        "herFather": "Mohamed Bouaoun",
-        "herMother": "Fatma Bouaoun"
+        "hisFather": "Hamadi Gorrab",
+        "hisMother": "Sonia Ben Sliman",
+        "herFather": "Moustafa Bouaoun",
+        "herMother": "Najat Bouaoun"
       },
       "cover": {
-        "monogram": "O & R",
+        "monogram": "S & R",
         "subtitle": "A celebration of love",
         "tapToOpen": "Tap to open",
         "openInvitation": "Open invitation",
@@ -80,10 +81,10 @@
           "title": "Welcome Dinner",
           "date": "2026-07-13",
           "venue": {
-            "name": "The Garden Terrace",
-            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
-            "latitude": 38.5025,
-            "longitude": -122.2654
+            "name": "In Front of the house",
+            "address": "Somaa ,Nabeul ,Tunisia",
+            "latitude": 36.539878,
+            "longitude": 10.778434
           },
           "events": [
             {
@@ -98,8 +99,13 @@
             },
             {
               "time": "21:30",
-              "title": "Toasts",
-              "description": "Sharing stories and well wishes"
+              "title": "Party (Soulamiya)",
+              "description": "Soulamiya party with music and dancing"
+            },
+            {
+              "time": "23:00",
+              "title": "Farewell",
+              "description": "Sparkler send-off"
             }
           ]
         },
@@ -108,31 +114,26 @@
           "title": "Wedding Ceremony & Reception",
           "date": "2026-07-14",
           "venue": {
-            "name": "Villa Serenità",
-            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
-            "latitude": 38.4876,
-            "longitude": -122.2812
+            "name": "Love story",
+            "address": "Rue Hwariyet ,Nabeul ,Tunisia",
+            "latitude": 36.478787,
+            "longitude": 10.67317
           },
           "events": [
             {
-              "time": "15:30",
+              "time": "19:00",
               "title": "Guest Seating",
               "description": "Please arrive and take your seat"
             },
             {
-              "time": "16:00",
+              "time": "19:30",
               "title": "Ceremony",
               "description": "We exchange our vows beneath the olive trees"
             },
             {
-              "time": "17:00",
-              "title": "Cocktail Hour",
-              "description": "Champagne and canapés in the garden"
-            },
-            {
-              "time": "18:30",
-              "title": "Reception Dinner",
-              "description": "Dinner, dancing, and celebration"
+              "time": "20:00",
+              "title": "Start of the party",
+              "description": "Start of the party with music and dancing"
             },
             {
               "time": "23:00",
@@ -149,6 +150,7 @@
         "imageAlts": [
           "A moment together in the city",
           "A quiet evening by the sea",
+          "Our engagement day",
           "Our engagement day"
         ]
       },
@@ -181,7 +183,20 @@
         "message": "Should you have any questions about accommodations, dress code, or travel, please do not hesitate to reach out.",
         "emailLabel": "Email",
         "phoneLabel": "Phone",
-        "instagramLabel": "Instagram"
+        "instagramLabel": "Instagram",
+        "installApp": {
+          "sectionLabel": "Save the Invitation",
+          "title": "Add to Your Home Screen",
+          "description": "Install this invitation as an app on your phone for quick access anytime — even offline.",
+          "installButton": "Install App",
+          "iosStep1": "Tap the Share button in Safari",
+          "iosStep2": "Scroll down and tap \"Add to Home Screen\"",
+          "iosStep3": "Tap \"Add\" to save the invitation",
+          "androidStep1": "Tap the menu (⋮) in your browser",
+          "androidStep2": "Select \"Install app\" or \"Add to Home Screen\"",
+          "androidStep3": "Confirm to save the invitation",
+          "installedMessage": "Invitation saved to your home screen"
+        }
       },
       "common": {
         "loadingError": "Unable to load invitation. Please try again later."
@@ -194,13 +209,13 @@
         "tagline": "مع عائلاتهما الكريمة"
       },
       "families": {
-        "hisFather": "سيف الدين قراب",
-        "hisMother": "أميرة قراب",
-        "herFather": "محمد بوعون",
-        "herMother": "فاطمة بوعون"
+        "hisFather": "حمادي قراب",
+        "hisMother": "سنية بن سليمان",
+        "herFather": "مصطفى بوعون",
+        "herMother": "نجات بوعون"
       },
       "cover": {
-        "monogram": "ع & ر",
+        "monogram": "س & ر",
         "subtitle": "احتفال بالحب",
         "tapToOpen": "اضغط لفتح الدعوة",
         "openInvitation": "افتح الدعوة",
@@ -243,10 +258,10 @@
           "title": "عشاء الترحيب",
           "date": "2026-07-13",
           "venue": {
-            "name": "تراس الحديقة",
-            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
-            "latitude": 38.5025,
-            "longitude": -122.2654
+            "name": "في منزل سومة",
+            "address": "Somaa ,Nabeul ,Tunisia",
+            "latitude": 36.539878,
+            "longitude": 10.778434
           },
           "events": [
             {
@@ -261,8 +276,8 @@
             },
             {
               "time": "21:30",
-              "title": "التهاني",
-              "description": "تبادل القصص والتمنيات الطيبة"
+              "title": "فرحة (سولامية)",
+              "description": "فرحة (سولامية) مع الموسيقى والرقص"
             }
           ]
         },
@@ -271,31 +286,26 @@
           "title": "مراسم الزفاف والحفل",
           "date": "2026-07-14",
           "venue": {
-            "name": "فيلا سيرينيتا",
-            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
-            "latitude": 38.4876,
-            "longitude": -122.2812
+            "name": "حديقة الحب",
+            "address": "Rue Hwariyet ,Nabeul ,Tunisia",
+            "latitude": 36.478787,
+            "longitude": 10.67317
           },
           "events": [
             {
-              "time": "15:30",
+              "time": "19:00",
               "title": "جلوس الضيوف",
               "description": "يرجى الحضور وأخذ مقاعدكم"
             },
             {
-              "time": "16:00",
+              "time": "19:30",
               "title": "المراسم",
               "description": "تبادل العهود تحت أشجار الزيتون"
             },
             {
-              "time": "17:00",
-              "title": "ساعة الكوكتيل",
-              "description": "شمبانيا ومقبلات في الحديقة"
-            },
-            {
-              "time": "18:30",
-              "title": "عشاء الاستقبال",
-              "description": "عشاء ورقص واحتفال"
+              "time": "20:00",
+              "title": "أطلاق الفرحة",
+              "description": "أطلاق الفرحة بالموسيقى والرقص"
             },
             {
               "time": "23:00",
@@ -312,6 +322,7 @@
         "imageAlts": [
           "لحظة معاً في المدينة",
           "أمسية هادئة بجانب البحر",
+          "يوم خطوبتنا",
           "يوم خطوبتنا"
         ]
       },
@@ -344,7 +355,20 @@
         "message": "إذا كانت لديكم أي أسئلة حول الإقامة أو قواعد اللباس أو السفر، لا تترددوا في التواصل معنا.",
         "emailLabel": "البريد الإلكتروني",
         "phoneLabel": "الهاتف",
-        "instagramLabel": "إنستغرام"
+        "instagramLabel": "إنستغرام",
+        "installApp": {
+          "sectionLabel": "احفظ الدعوة",
+          "title": "أضِفها إلى شاشتك الرئيسية",
+          "description": "ثبّت هذه الدعوة كتطبيق على هاتفك للوصول السريع في أي وقت — حتى بدون إنترنت.",
+          "installButton": "تثبيت التطبيق",
+          "iosStep1": "اضغط على زر المشاركة في Safari",
+          "iosStep2": "مرّر للأسفل واضغط \"Add to Home Screen\"",
+          "iosStep3": "اضغط \"Add\" لحفظ الدعوة",
+          "androidStep1": "اضغط على قائمة المتصفح (⋮)",
+          "androidStep2": "اختر \"Install app\" أو \"Add to Home Screen\"",
+          "androidStep3": "أكّد لحفظ الدعوة",
+          "installedMessage": "تم حفظ الدعوة على شاشتك الرئيسية"
+        }
       },
       "common": {
         "loadingError": "تعذر تحميل الدعوة. يرجى المحاولة لاحقاً."
@@ -357,13 +381,13 @@
         "tagline": "Avec leurs familles"
       },
       "families": {
-        "hisFather": "Saif Eddin Gorrab",
-        "hisMother": "Amira Gorrab",
+        "hisFather": "Hamadi Gorrab",
+        "hisMother": "Sonia Ben Sliman",
         "herFather": "Mohamed Bouaoun",
-        "herMother": "Fatma Bouaoun"
+        "herMother": "Najat Bouaoun"
       },
       "cover": {
-        "monogram": "O & R",
+        "monogram": "S & R",
         "subtitle": "Une célébration d'amour",
         "tapToOpen": "Appuyez pour ouvrir",
         "openInvitation": "Ouvrir l'invitation",
@@ -406,10 +430,10 @@
           "title": "Dîner de Bienvenue",
           "date": "2026-07-13",
           "venue": {
-            "name": "La Terrasse du Jardin",
-            "address": "24 Rosewood Lane, Napa Valley, CA 94558",
-            "latitude": 38.5025,
-            "longitude": -122.2654
+            "name": "In Front of the house",
+            "address": "Somaa ,Nabeul ,Tunisia",
+            "latitude": 36.539878,
+            "longitude": 10.778434
           },
           "events": [
             {
@@ -424,7 +448,7 @@
             },
             {
               "time": "21:30",
-              "title": "Toasts",
+              "title": "Party (Soulamiya)",
               "description": "Partage de souvenirs et de vœux"
             }
           ]
@@ -434,36 +458,31 @@
           "title": "Cérémonie & Réception",
           "date": "2026-07-14",
           "venue": {
-            "name": "Villa Serenità",
-            "address": "108 Olive Grove Road, Napa Valley, CA 94559",
-            "latitude": 38.4876,
-            "longitude": -122.2812
+            "name": "Love story",
+            "address": "Rue Hwariyet ,Nabeul ,Tunisia",
+            "latitude": 36.478787,
+            "longitude": 10.67317
           },
           "events": [
             {
-              "time": "15:30",
+              "time": "19:00",
               "title": "Installation des Invités",
               "description": "Veuillez arriver et prendre place"
             },
             {
-              "time": "16:00",
+              "time": "19:30",
               "title": "Cérémonie",
               "description": "Échange de nos vœux sous les oliviers"
             },
             {
               "time": "17:00",
-              "title": "Cocktail",
-              "description": "Champagne et canapés dans le jardin"
-            },
-            {
-              "time": "18:30",
-              "title": "Dîner de Réception",
-              "description": "Dîner, danse et célébration"
+              "title": "Start of the party",
+              "description": "Start of the party with music and dancing"
             },
             {
               "time": "23:00",
-              "title": "Adieux",
-              "description": "Envolée de cierges magiques"
+              "title": "Farewell",
+              "description": "Sparkler send-off"
             }
           ]
         }
@@ -475,6 +494,7 @@
         "imageAlts": [
           "Un moment ensemble en ville",
           "Une soirée tranquille au bord de la mer",
+          "Notre jour de fiançailles",
           "Notre jour de fiançailles"
         ]
       },
@@ -507,7 +527,20 @@
         "message": "Si vous avez des questions sur l'hébergement, le code vestimentaire ou le voyage, n'hésitez pas à nous contacter.",
         "emailLabel": "E-mail",
         "phoneLabel": "Téléphone",
-        "instagramLabel": "Instagram"
+        "instagramLabel": "Instagram",
+        "installApp": {
+          "sectionLabel": "Enregistrer l'Invitation",
+          "title": "Ajouter à l'Écran d'Accueil",
+          "description": "Installez cette invitation comme application sur votre téléphone pour un accès rapide à tout moment — même hors ligne.",
+          "installButton": "Installer l'App",
+          "iosStep1": "Appuyez sur le bouton Partager dans Safari",
+          "iosStep2": "Faites défiler et appuyez sur « Ajouter à l'écran d'accueil »",
+          "iosStep3": "Appuyez sur « Ajouter » pour enregistrer l'invitation",
+          "androidStep1": "Appuyez sur le menu (⋮) du navigateur",
+          "androidStep2": "Sélectionnez « Installer l'application » ou « Ajouter à l'écran d'accueil »",
+          "androidStep3": "Confirmez pour enregistrer l'invitation",
+          "installedMessage": "Invitation enregistrée sur votre écran d'accueil"
+        }
       },
       "common": {
         "loadingError": "Impossible de charger l'invitation. Veuillez réessayer plus tard."
