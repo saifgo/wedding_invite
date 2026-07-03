@@ -78,39 +78,6 @@
       "days": [
         {
           "label": "Day One",
-          "title": "Welcome Dinner",
-          "date": "2026-07-13",
-          "venue": {
-            "name": "In Front of the house",
-            "address": "Somaa ,Nabeul ,Tunisia",
-            "latitude": 36.539878,
-            "longitude": 10.778434
-          },
-          "events": [
-            {
-              "time": "18:00",
-              "title": "Guest Arrival",
-              "description": "Welcome drinks on the terrace"
-            },
-            {
-              "time": "19:00",
-              "title": "Dinner",
-              "description": "An intimate evening among close family and friends"
-            },
-            {
-              "time": "21:30",
-              "title": "Party (Soulamiya)",
-              "description": "Soulamiya party with music and dancing"
-            },
-            {
-              "time": "23:00",
-              "title": "Farewell",
-              "description": "Sparkler send-off"
-            }
-          ]
-        },
-        {
-          "label": "Day Two",
           "title": "Wedding Ceremony & Reception",
           "date": "2026-07-14",
           "venue": {
@@ -255,34 +222,6 @@
       "days": [
         {
           "label": "اليوم الأول",
-          "title": "عشاء الترحيب",
-          "date": "2026-07-13",
-          "venue": {
-            "name": "في منزل سومة",
-            "address": "Somaa ,Nabeul ,Tunisia",
-            "latitude": 36.539878,
-            "longitude": 10.778434
-          },
-          "events": [
-            {
-              "time": "18:00",
-              "title": "وصول الضيوف",
-              "description": "مشروبات ترحيبية على التراس"
-            },
-            {
-              "time": "19:00",
-              "title": "العشاء",
-              "description": "أمسية حميمة بين العائلة والأصدقاء المقربين"
-            },
-            {
-              "time": "21:30",
-              "title": "فرحة (سولامية)",
-              "description": "فرحة (سولامية) مع الموسيقى والرقص"
-            }
-          ]
-        },
-        {
-          "label": "اليوم الثاني",
           "title": "مراسم الزفاف والحفل",
           "date": "2026-07-14",
           "venue": {
@@ -427,34 +366,6 @@
       "days": [
         {
           "label": "Jour Un",
-          "title": "Dîner de Bienvenue",
-          "date": "2026-07-13",
-          "venue": {
-            "name": "In Front of the house",
-            "address": "Somaa ,Nabeul ,Tunisia",
-            "latitude": 36.539878,
-            "longitude": 10.778434
-          },
-          "events": [
-            {
-              "time": "18:00",
-              "title": "Arrivée des Invités",
-              "description": "Cocktails de bienvenue sur la terrasse"
-            },
-            {
-              "time": "19:00",
-              "title": "Dîner",
-              "description": "Une soirée intime entre famille et amis proches"
-            },
-            {
-              "time": "21:30",
-              "title": "Party (Soulamiya)",
-              "description": "Partage de souvenirs et de vœux"
-            }
-          ]
-        },
-        {
-          "label": "Jour Deux",
           "title": "Cérémonie & Réception",
           "date": "2026-07-14",
           "venue": {
