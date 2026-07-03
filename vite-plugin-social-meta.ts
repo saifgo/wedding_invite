@@ -38,7 +38,7 @@ export function socialMetaPlugin(): Plugin {
       const data = loadWeddingData();
       const lang = data.languages[data.defaultLanguage] ?? data.languages.ar;
       const siteUrl = (process.env.VITE_SITE_URL ?? "").replace(/\/$/, "");
-      const imagePath = data.story.images[0]?.src ?? "/story/img_2.jpg";
+      const imagePath = data.story.images[1]?.src ?? "/story/img_2.jpg";
       const imageUrl = siteUrl ? `${siteUrl}${imagePath}` : imagePath;
 
       const title =
