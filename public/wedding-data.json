@@ -159,7 +159,7 @@
         "title": "Kindly Respond",
         "subtitle": "Please let us know if you will be joining us",
         "respondBy": "Please respond by",
-        "deadline": "2026-08-01",
+        "deadline": "2026-07-12",
         "form": {
           "fullName": "Full Name",
           "namePlaceholder": "Your full name",
@@ -331,7 +331,7 @@
         "title": "يرجى التأكيد",
         "subtitle": "يرجى إعلامنا إن كنتم ستحضرون",
         "respondBy": "يرجى الرد قبل",
-        "deadline": "2026-08-01",
+        "deadline": "2026-07-12",
         "form": {
           "fullName": "الاسم الكامل",
           "namePlaceholder": "اسمك الكامل",
@@ -503,7 +503,7 @@
         "title": "Merci de Répondre",
         "subtitle": "Veuillez nous indiquer si vous serez des nôtres",
         "respondBy": "Merci de répondre avant le",
-        "deadline": "2026-08-01",
+        "deadline": "2026-07-12",
         "form": {
           "fullName": "Nom Complet",
           "namePlaceholder": "Votre nom complet",
